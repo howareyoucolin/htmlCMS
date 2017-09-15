@@ -1,0 +1,13 @@
+#list-circle .main{
+	text-align:center;
+}
+#list-circle .icon{
+	border-radius:50%;
+	width:80%;
+	max-width:200px;
+}
+#list-circle p.text{
+	color:#888;
+	font-size:12px;
+	min-height:100px;
+}

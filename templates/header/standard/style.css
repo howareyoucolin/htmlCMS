@@ -1,0 +1,79 @@
+#header-standard{
+	width:100%;
+	height:60px;
+	background:#FFF;
+	border-bottom:1px solid #EEE;
+}
+#header-standard h1{
+	margin:0;
+	padding:0;
+	float:left;
+}
+#header-standard h1 img{
+	height:60px;
+}
+#header-standard li{
+	display:inline-block;
+	height:60px;
+	line-height:60px;
+	font-size:14px;
+	border-right:1px solid rgba(0,0,0,0.05);
+}
+#header-standard li a{
+	padding:0 20px;
+	color:#393939;
+}
+
+/**MOBILE**/
+
+@media screen and (max-width:480px) {
+
+	#header-standard{
+		min-height:0;
+	}
+	
+	#header-standard .navbar-brand {
+		padding:0 15px;
+	}
+	
+	#header-standard .navbar-toggle{ 
+		background:#272727;
+	}
+	
+	#header-standard .navbar-toggle .icon-bar{
+		background:#FFF;
+	}
+	
+	#header-standard ul{
+		margin-top:5px;
+	}
+	
+	#header-standard ul li{
+		display:block;
+		line-height: 50px !important;
+		padding:0;
+		border-top:1px dotted #DDD;
+	}
+	
+	#header-standard ul li a{
+		line-height: 50px;
+	}
+	
+	#header-standard ul li a.active {
+		line-height: 50px;
+	}
+	
+	#header-standard .nav>li>a {
+		padding:0;
+	}
+	#header-standard #myNavbar {
+		position:relative;
+		background:#FFF;
+		z-index:999999999;
+		border-bottom:1px solid #EEE;
+	}
+	#header-standard .nav>li>a {
+		padding-left: 15px;
+	}
+
+}

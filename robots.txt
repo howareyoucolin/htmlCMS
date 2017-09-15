@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/ 
+Disallow: /editor/ 
+Disallow: /advance/ 
+Disallow: /assets/ 
+Disallow: /data/ 
+Disallow: /templates/ 
+Disallow: /uploads/ 
+Disallow: /custom/ 
+Disallow: /system/ 

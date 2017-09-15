@@ -1,0 +1,33 @@
+#banner-midcircle{
+	position:relative;
+}
+
+#banner-midcircle .circle{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-175px;
+	margin-left:-175px;
+	background:#FFF;
+	height:350px;
+	width:350px;
+	border-radius:50%;
+	text-align:center;
+	padding-top:30px;
+}
+
+#banner-midcircle .circle img.logo{
+	height:100px;
+	margin-bottom:15px;
+}
+#banner-midcircle p.phonez{
+	margin-bottom:15px;
+}
+#banner-midcircle p.addressz span{
+	color:#F58221;
+	margin-bottom:5px;
+}
+#banner-midcircle .socialmedia{
+	margin-top:15px;
+	opacity: 0.9; filter: alpha(opacity=90);
+}

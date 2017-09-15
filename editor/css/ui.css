@@ -1,0 +1,97 @@
+.popui{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.5);
+	z-index:99999999;
+}
+.popui .box{
+	min-width:400px;
+	min-height:400px;
+	max-width:82%;
+	max-height:82%;
+	background:#EEE;
+	position: fixed;
+	top:50%;
+	left:50%;
+	z-index:99999999;
+	padding:50px 25px 0 25px;
+}
+.popui .box .exit{
+	position:absolute;
+	top:-10px;
+	right:-10px;
+	cursor:pointer;
+}
+.popui .box .exit span{
+	color:#D00;
+	font-size:40px;
+}
+.popui .box .ok{
+	position:absolute;
+	bottom:10px;
+	left:0;
+	width:100%;
+	text-align:center;
+}
+.popui .box .ok button{
+	width:180px;
+}
+.popui input.pop-var{
+	width:100%;
+}
+.popui .pop-label{
+	margin:0 0 25px 2px;
+	height:37px;
+}
+.popui  .czeditor{
+	min-height:400px;
+	width:100%;
+}
+.popui  .czvisual{
+	background:#FFF;
+	padding:25px;
+	overflow-y: scroll;
+}
+.popui .pop-hint{
+	color:#AAA;
+	margin-top:-15px;
+	margin-bottom:25px;
+	font-size:10px;
+	border-bottom:1px solid rgba(255,255,255,0.5);
+	padding-bottom:5px;
+}
+.popui  .pop-holder{
+	padding-top:10px;
+	height:375px;
+	overflow-y: scroll;
+}
+.popui  .pop-holder li{
+	width:60px;
+	height:60px;
+	margin:0 10px 10px 0;
+	float:left;
+	position:relative;
+	list-style:none;
+}
+.popui  .pop-holder li img{
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

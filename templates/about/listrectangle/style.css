@@ -1,0 +1,12 @@
+#about-listrectangle .main{
+	text-align:center;
+}
+#about-listrectangle .icon{
+	width:98%;
+	max-width:200px;
+}
+#about-listrectangle p.text{
+	color:#888;
+	font-size:12px;
+	min-height:100px;
+}

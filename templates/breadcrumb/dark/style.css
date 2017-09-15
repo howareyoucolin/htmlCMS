@@ -1,0 +1,9 @@
+#breadcrumb-dark .wrap{
+	height:75px;
+	line-height:75px;
+	background:rgba(50,50,50,0.9);
+	color:#BBB;
+}
+#breadcrumb-dark .wrap a{
+	color:#FFF;
+}

@@ -1,0 +1,10 @@
+#list-rectangle .main{
+	text-align:center;
+}
+#list-rectangle .icon{
+	width:100%;
+	border:1px solid #EEE;
+}
+#list-rectangle p.text{
+	color:#888;
+}

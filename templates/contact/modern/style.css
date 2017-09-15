@@ -1,0 +1,35 @@
+#contact-modern table {
+    border-collapse: collapse;
+}
+
+#contact-modern table,#contact-modern  tr,#contact-modern  td {
+    border: 1px solid #EEE;
+}
+#contact-modern table,#contact-modern  tr{
+	width:100%;
+	height:100px;
+}
+#contact-modern table img{
+	width:60px;
+	height:60px;
+}
+#contact-modern  td:first-of-type{
+	width:25%;
+	min-width:100px;
+	text-align:center;
+} 
+#contact-modern  td:last-of-type{
+	padding-left:20px;
+}
+#contact-modern  .gmap{
+	border:1px solid #EEE;
+}
+#contact-modern  .gmap .mapframe{
+	display:none;
+	width:100%;
+	padding:15px 0;
+}
+#contact-modern  .gmap .mapframe iframe{
+	width:100% !important;
+}
+

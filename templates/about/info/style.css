@@ -1,0 +1,23 @@
+#about-info .sep-line{
+	margin:0 auto;
+	width:100%;
+	max-width:400px;
+	border-bottom:1px solid #555;
+}
+
+#about-info .glyphicon{
+	font-size:32px;
+}
+
+#about-info .map{
+	max-width:640px;
+	width:100%;
+	height:274px;
+	border:1px solid #555;
+	padding:2px;
+	margin:0 auto;
+}
+#about-info .map iframe{
+	height:270px !important;
+	width:100% !important;
+}

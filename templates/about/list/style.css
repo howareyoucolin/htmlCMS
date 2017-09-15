@@ -1,0 +1,13 @@
+#about-list .main{
+	text-align:center;
+}
+#about-list .icon{
+	border-radius:50%;
+	width:80%;
+	max-width:200px;
+}
+#about-list p.text{
+	color:#888;
+	font-size:12px;
+	min-height:100px;
+}

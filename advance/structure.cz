@@ -1,0 +1,255 @@
+home::
+
+	name=Home
+	
+	<div class="globe" style="text-align:center;">
+		custom-promotionpopup
+		header-centered
+		banner-midcircle{433}
+		[h100]
+		<div class="wow  bounceInUp">
+			about-simple
+		</div>
+		[h50]
+		<div class="wow  pulse">
+			widget-custom{video}
+		</div>
+		[h100]
+		<div class="wow  pulse">
+			list-circle{a,4,4}
+		</div>
+		[h100]
+		<div id="scrollto_gallery" class="wow  fadeIn">
+			gallery-categoried{6,300,225}
+		</div>
+		ad-google
+		[h100]
+		<div class="wow bounceInUp">
+			widget-testimonial{review,4,4}
+		</div>
+		[h150]
+		<div  id="scrollto_contact" class="wow  flipInY">
+			about-info
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+		custom-homemap
+	</div>
+	
+about::
+
+	name=About
+	
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div id="abouttext" class="wow bounceInUp">
+			about-imageright
+			[h50]
+			about-imageleft
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+	
+gallery::
+
+	name=Gallery
+	
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div id="abouttext" class="wow bounceInUp">
+			about-simple
+		</div>
+		[h100]
+		<div class="wow fadeIn up50">
+			gallery-categoried{6,300,225}
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+	
+service::
+
+	name=Service
+	
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div id="abouttext" class="wow bounceInUp">
+			about-simple
+		</div>
+		[h100]
+		<div class="wow fadeIn up50">
+			menu-simpletwocolumn
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+	
+contact::
+
+	name=Contact
+	
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div class="wow bounceInUp">
+			contact-modern
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+
+promotions::
+
+        name=Promotions
+        front=1
+
+        	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div id="abouttext" class="wow bounceInUp">
+			about-imageright
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+
+blog::
+
+	name=Blog
+	
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div class="wow bounceInUp">
+			<h2>Nail Spa Blog</h2>
+			[h50]
+			blog-block
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+	
+article::
+
+	name = Article
+	front = 0
+	back = 0
+
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div class="wow bounceInUp">
+			article-block
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+
+policy::
+
+	name = Private Policy
+	front = 0
+	back = 1
+
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div class="wow bounceInUp">
+			about-simple
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+
+review::
+
+	name = Write a Review for Us
+	front = 0
+	back = 1
+
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div class="wow bounceInUp">
+			about-simple
+		</div>
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>
+	
+404::
+
+	name = Page Not Found
+	front = 0
+	back = 0
+
+	<div class="globe" style="text-align:center;">
+		header-centered
+		breadcrumb-simple
+		[h100]
+		<div class="wow bounceInUp">
+			<h2>404 Error!</h2><br/><br/>
+			Page Not Found!<br/><br/>
+			Please click here to visit our <a href="./">Home Page</a>
+		</div>
+		[h200]
+		[h25]
+		ad-google
+		<div class="wow fadeIn">
+			widget-custom{footer}
+		</div>
+		[h25]
+	</div>

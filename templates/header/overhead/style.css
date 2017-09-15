@@ -1,0 +1,17 @@
+#header-overhead .wrap{
+	height:36px;
+	padding-top:1px;
+	border-bottom:1px solid #F1F1F1;
+}
+#header-overhead .wrap .telz{
+	font-size:12px;
+	line-height:35px;
+	float:left;
+}
+#header-overhead .wrap .socialmedia{
+	line-height:35px;
+}
+#header-overhead .wrap .socialmedia img{
+	width:18px;
+	height:18px;
+}

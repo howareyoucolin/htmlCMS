@@ -1,0 +1,15 @@
+#header-bar .head{
+	height:150px;
+}
+#header-bar .head h1{
+	margin:5px 0;
+	padding:0;
+}
+#header-bar .head h1 img{
+	height:140px;
+}
+#header-bar .bar{
+	height:50px;
+	width:100%;
+	background:#272727;
+}

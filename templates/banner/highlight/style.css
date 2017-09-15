@@ -1,0 +1,8 @@
+#banner-highlight .container{
+	position:relative;
+}
+#banner-highlight .guy{
+	position:absolute;
+	bottom:0;
+	right:0;
+}

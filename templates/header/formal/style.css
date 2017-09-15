@@ -1,0 +1,18 @@
+#header-formal .logo{
+	margin:0 10px;
+	padding:0;
+	height:100px;
+}
+#header-formal img{
+	height:100px;
+}
+#header-formal li{
+	display:inline-block;
+	height:100px;
+	line-height:100px;
+	font-size:14px;
+}
+#header-formal li a{
+	padding:0 20px;
+	color:#373737;
+}

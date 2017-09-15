@@ -1,0 +1,32 @@
+#about-imageleft h2{
+	margin:0;
+	padding:0;
+	font-family: Oswald,Microsoft YaHei;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color:#000;
+}
+#about-imageleft .content{
+	color:#999;
+	line-height: 22px;
+}
+#about-imageleft img.photo{
+	float:left;
+	margin:5px 25px 25px 0;
+	width:33%;
+}
+
+/**MOBILE**/
+
+@media screen and (max-width:480px) {
+
+	#about-imageleft img.photo{
+		float:none;
+		margin:0 0 25px 0px;
+		width:100%;
+	}
+
+}

@@ -1,0 +1,7 @@
+#gallery-categoried  .row{
+	margin-left:-1px;
+	margin-right:-1px;
+}
+#gallery-categoried  .col-md-1, #gallery-categoried  .col-md-2, #gallery-categoried  .col-md-3, #gallery-categoried  .col-md-4, #gallery-categoried  .col-md-6, #gallery-categoried  .col-md-12{
+	padding:1px;
+}

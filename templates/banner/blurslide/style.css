@@ -1,0 +1,35 @@
+#banner-blurslide .bx-wrapper {
+	border:0;
+	margin-bottom:0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#banner-blurslide .bx-viewport{
+	overflow:visible !important;
+}
+#banner-blurslide li{
+	width:100% !important;
+}
+#banner-blurslide .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+	bottom:10px !important;
+}
+#banner-blurslide .bx-controls-direction{
+	display:none;
+}
+#banner-blurslide .wrap{
+	position:relative;
+	overflow:hidden;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+}
+#banner-blurslide .wrap .foreground{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:999;
+}
+#banner-blurslide  .bx-wrapper .bx-pager {
+	z-index:1000;
+}

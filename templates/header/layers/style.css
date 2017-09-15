@@ -1,0 +1,99 @@
+#header-layers .layer1{
+	background:#FFF;
+	height:32px;
+}
+#header-layers .layer1 .inner{
+	position:relative;
+}
+#header-layers .layer2{
+	background:#4A8100;
+	height:50px;
+}
+#header-layers .layer2 li{
+	display:inline-block;
+	height:50px;
+	line-height:50px;
+	font-size:14px;
+	border-right:1px solid rgba(0,0,0,0.05);
+}
+#header-layers .layer2 li a{
+	padding:0 20px;
+	color:#FFF;
+}
+#header-layers .layer2 li a:hover{
+	background:none;
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+#header-layers .layer3{
+	width:150px;
+	height:180px;
+	border:10px solid rgba(0,0,0,0.02);
+	border-top:0;
+	background:#FFF;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:20;
+	line-height:160px;
+}
+#header-layers .layer3 .logo{
+	margin:5px;
+}
+
+/**MOBILE**/
+
+@media screen and (max-width:480px) {
+
+	#header-layers{
+		min-height:0;
+	}
+	
+	#header-layers .navbar{
+		margin-bottom: 0px;
+	}
+	
+	#header-layers .navbar-nav {
+		margin:0;
+	}
+	
+	#header-layers .nav>li>a {
+		color:#444;
+	}
+	
+	#header-layers .navbar-brand {
+		padding:0 15px;
+	}
+	
+	#header-layers .navbar-toggle{
+		background:#000;
+	}
+	
+	#header-layers .navbar-toggle .icon-bar{
+		background:#FFF;
+	}
+	
+	#header-layers ul{
+		margin-top:5px;
+	}
+	
+	#header-layers ul li{
+		display:block;
+		line-height: 35px;
+		padding:0;
+		border-top:1px dotted #DDD;
+	}
+	
+	#header-layers ul li a{
+		line-height: 35px;
+	}
+	
+	#header-layers ul li a.active {
+		line-height: 35px;
+	}
+	
+	#header-layers .nav>li>a {
+		padding:0;
+	}
+
+}

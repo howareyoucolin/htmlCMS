@@ -1,0 +1,84 @@
+#header-beta  h1{
+	margin:0;
+}
+#header-beta .wrap{
+    height: 180px;
+    width: 100%;
+    position: relative;
+}
+
+#header-beta div.bg {
+    position: relative;
+	height:100%;
+}
+
+#header-beta  .headz {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header-beta  .headz .head{
+	background: #FFF;
+    width: 100%;
+    height: 75px;
+    -webkit-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.3);
+    box-shadow: 0px 10px 30px -10px rgba(0,0,0,0.3);
+}
+
+#header-beta .logo {
+	margin:10px;
+    float:left;
+	margin:0;
+}
+
+#header-beta .logo img {
+    height: 75px;
+}
+
+#header-beta .headz .nav {
+    margin: 0;
+    padding: 0;
+    height: 75px;
+}
+#header-beta .nav li {
+	height:75px;
+    display: inline-block;
+    text-align: center;
+    height: 100%;
+    line-height: 75px;
+    padding: 0 10px;
+}
+#header-beta .nav li a {
+    padding: 0 20px;
+    margin: 0;
+    display: block;
+    color: #333;
+    font-size: 16px;
+}
+
+/**MOBILE**/
+
+@media screen and (max-width:480px) {
+
+	#header-beta .wrap{
+		display:none;
+	}
+	
+	#header-beta .seperator{
+		height:50px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+

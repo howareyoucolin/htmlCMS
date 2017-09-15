@@ -1,0 +1,36 @@
+#footer-clean .wrap{
+	padding:100px 0 25px;
+	border-top:1px solid #EEE;
+	background:#E8E8E8;
+}
+#footer-clean .sitemap{
+	margin:0;
+	padding:0;
+}
+#footer-clean .sitemap li{
+	padding:5px 0;
+	border-bottom:1px dotted #AAA;
+}
+#footer-clean .sitemap a{
+	color:#272727;
+}
+#footer-clean .contactz{
+	list-style:none;
+}
+#footer-clean .contactz li{
+	padding:5px 0;
+	border-bottom:1px dotted #AAA;
+}
+#footer-clean .copyright{
+	text-align:center;
+	font-size:12px;
+	color:#999;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #footer-clean .sitemap li{
+		list-style:none;
+	}
+}

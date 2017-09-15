@@ -1,0 +1,25 @@
+#list-frame .unit{
+	padding:1px;
+}
+#list-frame .unit .inner{
+	border:1px solid #EEE;
+	background:#FFF;
+	border-top:5px solid #272727;
+	padding:5px;
+}
+#list-frame .unit .inner:hover{
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	transform: scale(1.03);
+	transition: 0.5s ease;
+}
+#list-frame .main{
+	text-align:center;
+}
+#list-frame .icon{
+	width:100%;
+	border:1px solid #EEE;
+}
+#list-frame p.text{
+	color:#888;
+}

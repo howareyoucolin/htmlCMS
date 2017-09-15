@@ -1,0 +1,38 @@
+#global-wrapper{
+	
+	width:100%;
+	min-height:100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+    left: 0;
+    top: 0;
+    overflow: scroll;
+
+	
+}
+
+#global-wrapper .container{
+	
+	background:#FFF; 
+	padding:0 50px;
+	
+}
+
+#global-wrapper a{
+
+	color:#96931E
+
+}
+
+/**MOBILE**/
+
+@media screen and (max-width:480px) {
+
+	#global-wrapper .container {
+		padding:0 15px;
+	}
+
+}

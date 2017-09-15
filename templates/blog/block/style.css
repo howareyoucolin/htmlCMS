@@ -1,0 +1,38 @@
+#blog-block h2{
+	margin:0;
+	padding:0;
+	font-family: Oswald,Microsoft YaHei;
+	font-size: 28px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color:#000;
+}
+#blog-block h3{
+	margin:0;
+	padding:0;
+	font-family: Oswald,Microsoft YaHei;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color:#000;
+	height:60px;
+}
+#blog-block img{
+	width:100%;
+}
+#blog-block h2 a,#blog-block h3 a{
+	color:#000;
+	text-decoration:none;
+}
+#blog-block .excerpt{
+	min-height:185px;
+}
+#blog-block .blog-entry{
+	height:550px;
+	overflow:hidden;
+	margin-bottom:25px;
+}

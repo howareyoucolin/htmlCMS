@@ -1,0 +1,19 @@
+#banner-fullslider .bx-wrapper {
+	border:0;
+	margin-bottom:0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#banner-fullslider .bx-viewport{
+	overflow:visible !important;
+}
+#banner-fullslider li{
+	width:100% !important;
+}
+#banner-fullslider .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+	bottom:10px !important;
+}
+#banner-fullslider .bx-controls-direction{
+	display:none;
+}

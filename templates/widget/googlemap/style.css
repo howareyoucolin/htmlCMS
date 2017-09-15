@@ -1,0 +1,5 @@
+#widget-googlemap .inner iframe{
+	width: 100% !important;
+    height: 350px !important;
+    border: 15px solid rgba(0,0,0,0.1) !important;
+}

@@ -1,0 +1,19 @@
+#widget-quickcontact .box{
+	
+	text-align:center;
+
+}
+#widget-quickcontact .box .icon{
+	
+	display:inline-block;
+	text-align:center;
+	width:150px;
+	height:150px;
+	line-height:150px;
+	font-size:75px;
+	border-radius:50%;
+	background:#C6C34E;
+	color:#FFF;
+	margin-bottom:25px;
+
+}
